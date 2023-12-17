@@ -1,0 +1,455 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Data Structure</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Favicons -->
+  <link href="assets/img/logo/s9.png" rel="icon">
+  <link href="assets/img/logo/s9.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body id="page-top">
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="index.html"><img src="assets/img/logo/s9.png" alt="Logo"></a></h1>
+
+      <h1 class="logo me-auto"><a href="index.html"> </a></h1>
+
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#Queue">Queue</a></li>
+          <li><a class="nav-link   scrollto" href="#Stack">Stack</a></li>
+          <li><a class="nav-link scrollto" href="#Linked_List">Linked List</a></li>
+          <li><a class="nav-link scrollto" href="#footer">about awner</a></li>
+
+
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center" >
+
+    <div class="container">
+      <div class="row" data-aos="fade-left">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
+          data-aos="fade-up" data-aos-delay="200">
+          <h1>Data Structure Project</h1>
+          <h2>This site provides you with an understanding of data structure and how to solve queue, stack, and linked
+            list</h2>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+            <a href="https://youtu.be/owCqVRbZlbg?si=xj9-wdU7L24pCsFL" class="glightbox btn-watch-video"><i
+                class="bi bi-play-circle"></i><span>Data Structure Course</span></a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about d-flex align-items-center">
+      <div class="container" data-aos="fade-left">
+
+        <div class="section-title">
+          <h2>About DS</h2>
+        </div>
+        <div class="row content">
+          <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1">
+
+            <p>
+              A data structure is a storage that is used to store and organize data.
+              It is a way of arranging data on a computer so that it can be accessed and updated efficiently.
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Data structure is way of organizing data in a computer so
+                that it
+                can be used efficiently.
+                Some common data structures include arrays, linked lists, stacks, queues, trees, graphs, and hash
+                tables.</li>
+              <li><i class="ri-check-double-line"></i> Different data structure excel at different operations.
+                For example, arrays allow fast random access but can be slow for inserts/deletes.
+                Linked lists allow efficient insertion/deletion but slow random access.
+                Stacks/queues operate in LIFO/FIFO order. Trees and graphs allow efficient searches and spatial
+                relationships.</li>
+              <li><i class="ri-check-double-line"></i> Data structures have different time complexities for their
+                operations.
+                For example, accessing an array element is O(1) while searching a linked list is O(n).
+                Knowing these complexities helps when picking optimal data structures.</li>
+              <li><i class="ri-check-double-line"></i> More advanced data structures include heaps, tries, spatial
+                data
+                structures, self-balancing trees and so on.
+                They have specific use cases such as priority queues, spell-checking, GIS systems, keeping data
+                sorted,
+                etc.</li>
+              <li><i class="ri-check-double-line"></i> The implementation of the abstract data structure also
+                matters.
+                Factors like memory usage, caching behavior, and constant factors related to time complexity
+                should
+                be
+                considered.</li>
+
+              <li><i class="ri-check-double-line"></i> The implementation of the abstract data structure also
+                matters.
+                Factors like memory usage, caching behavior, and constant factors related to time complexity
+                should
+                be
+                considered.</li>
+              <li><i class="ri-check-double-line"></i> Key skills around data structure include understanding
+                available
+                structures and their tradeoffs, knowing when to use which structure, implementing them
+                efficiently,
+                and analyzing their algorithmic performance with big O notation. Mastering data structures is
+                important
+                for any programmer.</li>
+            </ul>
+
+          </div>
+
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+            <img src="assets/img/ddata.png" class="img-fluid animated" alt="">
+
+          </div>
+
+        </div>
+        <div class="row content">
+          <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1">
+            <p>
+              Classification of Data Structure:
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i>Linear data structure: Data structure in which data elements
+                are
+                arranged sequentially or linearly, where each element is attached to its previous and next
+                adjacent
+                elements.
+                <br>
+                Examples of linear data structures are <br> array, stack, queue, linked list, etc.
+              <li>Static data structure: Static data structure has a fixed memory size. It is easier to access the
+                elements in a static data structure.
+                <br>-An example of this data structure is an array.
+              </li>
+              <li>Dynamic data structure: In dynamic data structure, the size is not fixed. It can be randomly
+                updated
+                during the runtime which may be considered efficient concerning the memory (space) complexity of
+                the
+                code.<br>
+                -Examples of this data structure are queue, stack, etc.</li>
+              </li>
+              <li><i class="ri-check-double-line"></i>Non-linear data structure: Data structures where data
+                elements
+                are
+                not placed sequentially or linearly are called non-linear data structures. In a non-linear data
+                structure, we can’t traverse all the elements in a single run only.
+                <br>-Examples of non-linear data structures are trees and graphs.
+              </li>
+            </ul>
+
+          </div>
+
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+            <img src="assets/img/pngwing.com.png" class="img-fluid animated" alt="">
+
+
+          </div>
+
+        </div>
+      </div>
+
+
+
+    </section><!-- End About Us Section -->
+
+    <!-- ======= Queue======= -->
+    <section id="Queue">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Queue</h2>
+        </div>
+
+        <div id="queue" class="data-structure">
+          <div class="row content">
+            <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1">
+              <p>
+                A queue is a linear data structure that follows the first-in, first out (FIFO) principle. The key
+                features of a queue are:
+              </p>
+              <ul>
+                <i class="ri-check-double-line"></i>Insertion happens at the rear end of the queue. This operation is
+                called enqueue.<br>
+                <i class="ri-check-double-line"></i>Deletion happens at the front end of the queue. This operation is
+                called dequeue.<br>
+
+                <i class="ri-check-double-line"></i>The oldest element inserted in the queue is processed first. Hence
+                queues follow the FIFO order - First In First Out.<br>
+              </ul>
+              <p>
+                Some key properties of queues:
+              </p>
+              <ul>
+                <i class="ri-check-double-line"></i>New elements are added at the back/rear of the queue.
+                <br>
+                <i class="ri-check-double-line"></i>Elements are removed from the front of the queue.
+                <br>
+                <i class="ri-check-double-line"></i>Front points to the front/first element of the queue. Rear points to
+                the last element. <br>
+                <i class="ri-check-double-line"></i>Queue operations are enqueue (insert) and dequeue (remove).
+                <br>
+
+              </ul>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+              <img src="assets/img/queue.gif" class="img-fluid animated" alt="">
+            </div>
+          </div>
+          <br>
+          <div class="class">
+            <label for="queue-input">Enter Element:</label>
+            <input type="text" id="queue-input" class="inn">
+            <label for="position-input">Enter index (optional):</label>
+            <input type="number" id="position-input" class="inn">
+            <button class="button success" onclick="addToQueue()">Enqueue</button>
+            <button class="button button3 danger" onclick="removeFromQueue()">Dequeue</button>
+            <ul id="queue-list"></ul>
+            <div id="queue-operation-box"></div>
+            <div id="queue-length"></div>
+          </div>
+
+
+        </div>
+    </section>
+
+    <!-- ======= Stack ======= -->
+    <section id="Stack" data-aos="fade-up">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Stack</h2>
+        </div>
+        <div id="data-structures">
+          <div class="row content">
+            <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1">
+              <p>
+                A stack is another fundamental linear data structure that follows the last-in, first-out (LIFO)
+                principle. The main operations of stack are:
+              </p>
+              <ul>
+                <i class="ri-check-double-line"></i>Push - Adds an element to the top of the stack.<br>
+                <i class="ri-check-double-line"></i>Pop - Removes the top element of the stack.<br>
+              </ul>
+              <p>
+                Some key properties of stacks:
+              </p>
+              <ul>
+                <i class="ri-check-double-line"></i>New elements are added/pushed at the top of the stack.
+                <br>
+                <i class="ri-check-double-line"></i>Last inserted element is removed first. Hence it follows LIFO order
+                - Last In First Out.
+                <br>
+                <i class="ri-check-double-line"></i>Top points to the last inserted element.<br>
+                <i class="ri-check-double-line"></i>Main operations are push and pop.
+                <br>
+
+              </ul>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+              <img src="assets/img/stack.gif" class="img-fluid animated" alt="">
+            </div>
+          </div>
+          <br>
+          <div id="stack" class="data-structure">
+            <div class="class">
+              <label for="stack-input">Enter Element:</label>
+              <input type="text" id="stack-input" class="inn">
+              <label for="position-input-s">Enter index (optional):</label>
+              <input type="number" id="position-input-s" class="inn">
+
+              <button class="button success" onclick="addToStack()">Push</button>
+              <button class="button button3 danger" onclick="removeFromStack()">Pop</button>
+              <ul id="stack-list"></ul>
+              <div id="stack-operation-box"></div>
+              <div id="stack-length"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Linked_List ======= -->
+    <section id="Linked_List">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Linked List</h2>
+        </div>
+        <div id="data-structures">
+          <div class="row content">
+            <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1">
+              <p>
+                A linked list is a linear data structure where each element is a separate object that contains a pointer
+                or reference to the next element. Unlike arrays, elements in a linked list are not stored contiguously
+                in memory.
+                - The main operations associated with linked list include:
+
+              </p>
+              <ul>
+                <i class="ri-check-double-line"></i>Insert - Inserts a new node at the beginning, end or middle
+                <br>
+                <i class="ri-check-double-line"></i>Delete - Deletes a node by key/value
+                <br>
+                <i class="ri-check-double-line"></i>Traverse - Print out the linked list
+                <br>
+                <i class="ri-check-double-line"></i>Search - Search for a value in the linked list
+                <br>
+                <i class="ri-check-double-line"></i>Sort - Sort the linked list
+                <br>
+
+              </ul>
+
+              <p>
+                Some key properties of linked lists:
+              </p>
+              <ul>
+                <i class="ri-check-double-line"></i>Each element is called a node. It contains data and a
+                pointer/reference to the next node.<br>
+                <i class="ri-check-double-line"></i>The first node is called the head. The last node points to null
+                indicating end.<br>
+
+                <i class="ri-check-double-line"></i>Insertion and deletion of nodes does not require reallocation of the
+                entire structure.
+                <br>
+                <i class="ri-check-double-line"></i>operations like insert, delete, traverse can be done efficiently in
+                O(1) time. But search is O(n) since elements not indexed.
+                <br>
+              </ul>
+             
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+              <img src="assets/img/linked.gif" class="img-fluid animated" alt="">
+            </div>
+          </div>
+          <br>
+          <div id="linked-list" class="data-structure">
+            <div class="class">
+              <label for="linked-list-input">Enter Element:</label>
+              <input type="text" id="linked-list-input" class="inn">
+              <label for="position-input-l">Enter index (optional):</label>
+              <input type="number" id="position-input-l" class="inn">
+              <button class="button success" onclick="addToLinkedList()">Append</button>
+              <button class="button button3 danger" onclick="removeFromLinkedList()">Remove</button>
+              <ul id="linked-list-items"></ul>
+              <div id="linked-list-operation-box"></div>
+              <div id="linked-list-length"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+
+
+
+  <script src="script.js"></script>
+
+</body>
+
+
+
+<!-- ======= Footer ======= -->
+<footer id="footer">
+
+
+  <div class="footer-top">
+    <div class="container" data-aos="fade-up">
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <h9><a href="index.html"><img src="assets/img/logo/k4.png" alt="" style="width: 70px; height: auto;"></a></h9>
+        </div>
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <h4>Produced by</h4>
+          <p>
+            <strong><a href="mailto:ahmadseneed@gmail.com">Ahmed El-Sayed Sneed </a></strong> <br>
+            <br>
+            Semester 5 | level 3 <br>
+            Faculty of Artificial Intelligence <br><br>
+            <strong>Delta University for Science and Technology</strong> <br>
+
+          </p>
+        </div>
+        <div class="col-lg-3"></div>
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>supervised by</h4>
+          <strong>Dr. Amany Sarhan</strong><br><br>
+          <p>Data Structure Course Professor</p>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container footer-bottom clearfix">
+    <div class="copyright" >
+      &copy; Copyright <strong><span>Sneed 2023</span></strong>. All Rights Reserved
+    </div>
+
+
+  </div>
+</footer><!-- End Footer -->
+<!--
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+-->
+<!-- Vendor JS Files -->
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+
+
+</html>
